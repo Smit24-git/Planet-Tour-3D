@@ -80,6 +80,8 @@ function gltfFunction(gltf) {
 
     // set the camera to frame the box
     frameArea(boxSize, boxSize, boxCenter, camera);
+    
+    document.getElementById('loading').style.visibility="collapse";
 }
 
 
@@ -104,6 +106,7 @@ GameLoop();
 
 
 window.setPlanet = (planetDetails) => {
+    document.getElementById('loading').style.visibility="visible";
     planetDetails = JSON.parse(planetDetails);
     // scene.remove(gltfLoader);
     gltfLoader.load(`models/${planetDetails.model}`, gltfFunction);
