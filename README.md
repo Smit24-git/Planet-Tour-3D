@@ -5,7 +5,8 @@ Need to have your name, app description, and some User instructions
 # Planet-Tour-3D
 ## Author
 > Smit Hineshkumar Shah
-> MIT Licensed
+
+> Project Licensed under MIT 
 
 
 ## Description
