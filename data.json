@@ -1,0 +1,59 @@
+[
+    {
+        "name":"Earth",
+        "model":"Earth.glb",
+        "img":"Earth.png",
+        "desc":"Earth is our home planet. Scientists believe Earth and its moon formed around the same time as the rest of the solar system. They think that was about 4.5 billion years ago. Earth is the fifth-largest planet in the solar system.",
+        "distance":"93 million miles",
+        "radius":"3,959 miles",
+        "expl":[
+            {
+                "img":"Nitrogen.png",
+                "name":"Nitrogen"
+            }
+        ]
+    },
+    {
+        "name":"Enceladus",
+        "model":"Enceladus.glb",
+        "img":"Enceladus.png",
+        "desc":"",
+        "distance":"",
+        "radius":"",
+        "expl":[
+            
+        ]
+    },
+    {
+        "name":"Makemake",
+        "model":"Makemake.glb",
+        "img":"Makemake.png",
+        "desc":"",
+        "distance":"",
+        "radius":"",
+        "expl":[
+            
+        ]
+    },
+    {
+        "name":"Mars",
+        "model":"Mars.glb",
+        "img":"Mars.png",
+        "desc":"",
+        "distance":"",
+        "radius":"",
+        "expl":[
+            
+        ]
+    },
+    {
+        "name":"Phobos",
+        "model":"Phobos.glb",
+        "img":"Phobos.png","desc":"",
+        "distance":"",
+        "radius":"",
+        "expl":[
+            
+        ]
+    }
+]

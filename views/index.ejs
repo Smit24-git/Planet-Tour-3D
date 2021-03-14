@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/index.css" rel="stylesheet"/>
+    
+    <title>Document</title>
+    
+
+</head>
+
+<body>
+    <input id="firstRecord" type="hidden" value='<%= JSON.stringify(data[0]) %>'/>
+    <header>
+        <h2>PLANET TOUR 3D</h2>
+        <p>Powered By THREE JS</p>
+    </header>
+    <main>
+        <section id="planets">
+            <%
+                data.forEach((planetDetails)=>{
+                    %>
+            <figure class="planet" title="Click to see details" onclick="window.setPlanet( '<%= JSON.stringify(planetDetails) %>' )">
+                <img src="imgs/<%=planetDetails.img%>" />
+                <figcaption><%=planetDetails.name%></figcaption>
+            </figure>
+            <%
+                })
+            %>
+
+        </section>
+        <section class="mainSection">
+            <aside class="leftAside">
+                <h3>Exploration</h3>
+                <div id="expl"></div>
+            </aside>
+            <div id="canvasDiv">
+                <canvas id="mainCanvas"></canvas>
+            </div>
+            <aside>
+                <h3 id="title"></h3>
+                <p id="desc"></p>
+                <table>
+                    <tr> <th>Distance from Sun</th> <th>Radius</th>      </tr>
+                    <tr> <td id="distance"></td>  <td id="radius"></td> </tr>
+                </table>
+            </aside>
+        </section>
+
+        <!-- <section class="mainSection">
+            <div>div a</div>
+            <div>div b</div>
+            <div>div c</div>
+        </section> -->
+    </main>
+    <footer></footer>
+
+    <script src="js/index.js" type="module">
+    
+    </script>
+    <script>
+        
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+header {
+    padding: 0px 0px 10px 20px;
+}
+
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#planets {
+    display: flex;
+    direction: row;
+    text-align: center;
+    flex-wrap: nowrap;
+    overflow: auto;
+    
+}
+
+
+#planets canvas {
+    width: 150px;
+    /* background-color: teal; */
+
+}
+
+.mainSection {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+
+}
+
+.mainSection>*:not(#canvasDiv) {
+    background-color: rgba(255, 255, 255, 0.342);
+    margin: 10px;
+}
+
+.mainSection canvas {
+    width: 100%;
+}
+
+.planet {
+    padding: 0px 30px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.205);
+}
+.planet:hover{
+    transform: scale(1.1);
+}
+.planet img {
+    width: 100px;
+    height: 100px;
+    /* border: 1px solid rgba(255, 255, 255, 0.253); */
+}
+aside{
+    padding: 10px;
+}
+aside h3{
+    margin: 0;
+}
+aside p{
+    margin: 10px;
+    text-align: justify;
+    letter-spacing: .5pt;
+}
+table{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+aside.leftAside div{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    text-align: center;
+}
+aside figure {
+    margin: 10px;
+}
+aside figure figcaption {
+    
+    font-size: 80%;
+}
