@@ -73,7 +73,13 @@ aside p{
     text-align: justify;
     letter-spacing: .5pt;
 }
-table{
+aside.rightAside{
+    border-radius: 10px 0px 0px 10px;
+}
+aside.leftAside{
+    border-radius: 0px 10px 10px 0px;
+}
+aside.rightAside table{
     margin-top: 20px;
     width: 100%;
     text-align: center;
@@ -83,7 +89,7 @@ aside.leftAside div{
     grid-template-columns: repeat(3,33%);
     text-align: center;
 }
-aside figure {
+aside.leftAside figure {
     margin: 10px;
 }
 aside figure figcaption {
@@ -111,6 +117,20 @@ aside figure figcaption {
     height: 50px;
     /* display: inline-block; */
     /* margin: auto; */
+    text-align: center;
+    
+}
+.bottomSection{
+    background-color: rgba(255, 255, 255, 0.068);
+    padding: 10px;
+    display: block;
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+
+}
+.bottomSection p{
+    display: block;
     text-align: center;
     
 }
