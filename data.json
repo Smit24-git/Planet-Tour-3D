@@ -25,9 +25,9 @@
         "name":"Enceladus",
         "model":"Enceladus.glb",
         "img":"Enceladus.png",
-        "desc":"",
-        "distance":"",
-        "radius":"",
+        "desc":"Few worlds in our solar system are as compelling as Saturn’s icy ocean moon Enceladus. A handful of worlds are thought to have liquid water oceans beneath their frozen shell, but Enceladus sprays its ocean out into space where a spacecraft can sample it.",
+        "distance":"-",
+        "radius":"156.6 miles",
         "expl":[
             
         ]
@@ -36,9 +36,9 @@
         "name":"Makemake",
         "model":"Makemake.glb",
         "img":"Makemake.png",
-        "desc":"",
-        "distance":"",
-        "radius":"",
+        "desc":"Along with fellow dwarf planets Pluto, Eris and Haumea, Makemake is located in the Kuiper Belt, a region outside the orbit of Neptune. Slightly smaller than Pluto, Makemake is the second-brightest object in the Kuiper Belt as seen from Earth (while Pluto is the brightest).",
+        "distance":"4,253,000,000 miles",
+        "radius":"444 miles",
         "expl":[
             
         ]
@@ -47,9 +47,9 @@
         "name":"Mars",
         "model":"Mars.glb",
         "img":"Mars.png",
-        "desc":"",
-        "distance":"",
-        "radius":"",
+        "desc":"No planet beyond Earth has been studied as intensely as Mars. Recorded observations of Mars date as far back as the era of ancient Egypt over 4,000 years ago, when they charted the planet movements in the sky. Today, an international fleet of robotic spacecraft study Mars from all angles.",
+        "distance":"142 million miles",
+        "radius":"2,106 miles",
         "expl":[
             
         ]
@@ -57,9 +57,10 @@
     {
         "name":"Phobos",
         "model":"Phobos.glb",
-        "img":"Phobos.png","desc":"",
-        "distance":"",
-        "radius":"",
+        "img":"Phobos.png",
+        "desc":"Phobos, gouged and nearly shattered by a giant impact crater and beaten by thousands of meteorite impacts, is on a collision course with Mars. Phobos is nearing Mars at a rate of six feet (1.8 meters) every hundred years; at that rate, it will either crash into Mars in 50 million years or break up into a ring.",
+        "distance":"~142 million miles",
+        "radius":"6.9 miles",
         "expl":[
             
         ]
