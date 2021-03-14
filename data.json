@@ -10,6 +10,14 @@
             {
                 "img":"Nitrogen.png",
                 "name":"Nitrogen"
+            },
+            {
+                "img":"Oxygen.png",
+                "name":"Oxygen"
+            },
+            {
+                "img":"CarbonDioxide.png",
+                "name":"Carbon Dioxide"
             }
         ]
     },

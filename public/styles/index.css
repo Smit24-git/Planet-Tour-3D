@@ -91,6 +91,8 @@ aside.leftAside div{
 }
 aside.leftAside figure {
     margin: 10px;
+    background-color: rgba(255, 235, 205, 0.164);
+    border-radius: 10px;
 }
 aside figure figcaption {
     
