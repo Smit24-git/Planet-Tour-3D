@@ -4,6 +4,8 @@
 
 > Project Licensed under MIT 
 
+> Deployed on Heroku: https://planet-tour-3d.herokuapp.com/ 
+
 
 ## Description
     Interective 3D website provides information about different planets.
