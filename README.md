@@ -21,4 +21,15 @@
   3) run ```npm install``` to install node packages
   4) run ```npm start```
   5) open browser and type : http://localhost:5000 And hit enter to view the website you hosted on local server.
+
+### Steps to publish the project on HEROKU
+  1) sign up on heroku.
+  2) add new project.
+  3) navigate to deploy.
+  4) select deploy with github.
+  5) verify github account.
+  6) searcg for the repo: Planet-Tour-3D
+  7) select the repo from the search result.
+  8) leave other settings to default.
+  9) click on deploy to deploy manually. 
   
